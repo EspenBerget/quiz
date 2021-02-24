@@ -1,0 +1,21 @@
+
+.question {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "question question"
+        "option option"
+        "option option";
+    column-gap: 2px;
+    row-gap: 2px;
+    
+    width: 90%;
+    text-align: center;
+}
+
+.question h1 {
+    grid-area: question;
+    font-size: 2.5rem;
+    font-family: monospace;
+}

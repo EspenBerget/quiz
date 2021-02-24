@@ -1,0 +1,28 @@
+.option {
+    grid-area: "option";
+
+    background-color: #EF6C00;
+
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option:hover {
+    border: 1px inset black;
+    background-color: #FF9800;
+}
+
+.option:nth-child(2) {
+    border-top-left-radius: 15px;
+}
+.option:nth-child(3) {
+    border-top-right-radius: 15px;
+}
+.option:nth-child(4) {
+    border-bottom-left-radius: 15px;
+}
+.option:nth-child(5) {
+    border-bottom-right-radius: 15px;
+}

@@ -1,0 +1,21 @@
+
+.timer {
+    height: auto;
+    width: 90%;
+}
+
+.timer .bar {
+    width: 100%;
+    height: 20px;
+    background-color: lightgray;
+    z-index: 0;
+}
+
+.timer .progress {
+    height: 20px;
+
+    position: relative;
+    top: -20px;
+    background-color: #b71c1c;
+    z-index: 1;
+}
