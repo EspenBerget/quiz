@@ -13,8 +13,12 @@ function App() {
   let progressBar;
 
   let [questions, setQuestions] = useState([
-    {question:"what?", options: ["yes", "no", "maybe", "sure"], correct: "maybe"},
-    {question:"is this a good quiz?", options: ["yeah", "nope", "not at all", "no"], correct: "yeah"}
+    {question:"Which of these are valid JS?", options: ["console.log 'hello'", "console.log('hello')","set x = 1", "var & = 1"], correct: "console.log('hello')"},
+    {question:"Which of these languages does not compile to JS?", options: ["Elm","PureScript","ReasonML","Java"], correct:"Java"},
+    {question:"Which of these are not a bundler?", options: ["babel","parcel","rollup","webpack"], correct: "babel"},
+    {question:"What was the original name for JavaScript?", options:["ECMAScript","CScript","WebScript","LiveScript"], correct:"LiveScript"},
+    {question:"Which of these allow you to build web APIs in JS?", options:["react","gulp","express","gorilla"], correct:"express"},
+    {question:"Which of thees are not a web apps framework", options:["react","vue","svelte","node"], correct: "node"}
   ]);
 
   let [question, setQuestion] = useState({});

@@ -16,6 +16,6 @@
 
 .question h1 {
     grid-area: question;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: monospace;
 }
